@@ -13,7 +13,7 @@ namespace DecoratorDesgAssignment.Decorator
 
         public override string GetText()
         {
-            return base.GetText();
+            return "Give simple introduction: " + base.GetText();
         }
     }
 }
