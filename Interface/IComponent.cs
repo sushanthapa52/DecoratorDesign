@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DecoratorDesgAssignment.Interface
 {
-    internal class IComponent
+    public interface IComponent<T>
     {
+        T GetText();
     }
 }
