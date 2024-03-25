@@ -10,7 +10,7 @@ var upperCaseDecorator = new UpperCaseDecorator(component);
 var colorDecorator = new ColorDecorator(component);
 
 // calling GetText() from each object defined above and printing the result in console window.
-Console.WriteLine("Original: " + component.GetText());
-Console.WriteLine("PlainDecorator: " + plainDecorator.GetText());
-Console.WriteLine("UpperCaseDecorator: " + upperCaseDecorator.GetText());
-Console.WriteLine("ColorDecorator: " + colorDecorator.GetText());
+Console.WriteLine("Introduction Message: " + component.GetText());
+Console.WriteLine("PlainMessage: " + plainDecorator.GetText());
+Console.WriteLine("UpperCased Message: " + upperCaseDecorator.GetText());
+Console.WriteLine("Colored Message: " + colorDecorator.GetText());
